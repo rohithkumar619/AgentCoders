@@ -1,0 +1,52 @@
+.forgot {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #ebebeb;
+  height: 100vh;
+  width: 100vw;
+}
+
+.forgot-div {
+  display: flex;
+  flex-direction: column;
+  height: 350px;
+  background-color: white;
+  width: 430px;
+  gap: 20px;
+  padding: 50px;
+}
+.forgot input {
+  height: 30px;
+  width: 400px;
+  font-size: 16px;
+  padding: 10px 20px;
+}
+.forgot h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.forgot label {
+  font-size: 13px;
+  margin-bottom: -10px;
+  font-weight: bold;
+  align-self: start;
+}
+.forgot button {
+  background-color: #333333;
+  height: 45px;
+  width: 150px;
+  align-self: center;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 50px;
+  margin-top: 10px;
+  cursor: pointer;
+  border: none;
+}
+.forgot button:hover {
+  background-color: rgb(72, 161, 72);
+  transition: all 0.3s;
+}

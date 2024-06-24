@@ -1,0 +1,61 @@
+.Header {
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 50px;
+  padding-right: 50px;
+  height: 80px;
+  align-items: center;
+  z-index: 20;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  transition: transform 0.3s ease-in-out, background-color 0.3s ease-in-out;
+}
+
+.Header.scrolled {
+  background-color: rgba(0, 0, 0, 0.9);
+}
+
+.Header > :nth-child(1) img {
+  width: 300px;
+}
+
+.Header ul {
+  display: flex;
+  width: 50%;
+  justify-content: space-around;
+  list-style: none;
+}
+
+.Header ul li {
+  font-size: 15px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.Header ul li:hover {
+  color: red;
+}
+
+.Header > :nth-child(3) button {
+  width: 100px;
+  height: 30px;
+  font-family: "Rowdies", sans-serif;
+  font-weight: 400;
+  border-radius: 5px;
+  border: 0;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.Header > :nth-child(3) button:hover {
+  border-radius: 20px 10px;
+  background-color: red;
+}
+.Udata {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}

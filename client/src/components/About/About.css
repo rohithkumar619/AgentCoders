@@ -1,0 +1,98 @@
+.about {
+  width: 100%;
+  height: 100%;
+  background-color: #333;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.about-content {
+  margin-top: 100px;
+  padding: 20px 0;
+  background-color: #333;
+  padding: 20px;
+
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Box shadow for depth */
+}
+
+.about h2 {
+  font-size: 30px;
+  color: #ff4c4c;
+  margin-bottom: 20px;
+}
+.about h2 span {
+  color: white;
+}
+.about-esports {
+  height: 200px;
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  justify-content: space-around;
+}
+.about-esports img {
+  width: 300px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 10px white;
+}
+.about-esports > div {
+  display: flex;
+  flex-direction: column;
+  width: 430px;
+  color: white;
+  gap: 10px;
+}
+.about-esports > div > :nth-child(1) {
+  padding-bottom: 2px;
+  font-size: 19px;
+  border-bottom: 2px solid red;
+  letter-spacing: 1px;
+}
+.about h3 {
+  font-size: 1.8rem;
+  color: #fff;
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+
+.about p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  color: #fff;
+}
+
+.rules {
+  list-style-type: disc;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+.rules li {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  color: #fff;
+}
+
+.about strong {
+  color: #ff4c4c;
+}
+
+@media (max-width: 768px) {
+  .about {
+    padding: 10px;
+  }
+
+  .about h2 {
+    font-size: 2rem;
+  }
+
+  .about h3 {
+    font-size: 1.5rem;
+  }
+  .about p,
+  .about ul li {
+    font-size: 1rem;
+  }
+}

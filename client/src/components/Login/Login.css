@@ -1,0 +1,82 @@
+.login {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #ebebeb;
+  height: 100vh;
+  width: 100vw;
+}
+.login form {
+  display: flex;
+  flex-direction: column;
+  height: 200px;
+  background-color: white;
+  height: 450px;
+  width: 430px;
+  gap: 20px;
+  padding: 50px;
+}
+.login input {
+  height: 40px;
+  width: 400px;
+  font-size: 16px;
+  padding: 10px 20px;
+}
+.login h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.login label {
+  font-size: 13px;
+  margin-bottom: -10px;
+  font-weight: bold;
+}
+.login button {
+  background-color: #333333;
+  height: 55px;
+  width: 150px;
+  align-self: center;
+  color: white;
+  font-size: 17px;
+  font-weight: bold;
+  border-radius: 50px;
+  margin-top: 10px;
+  cursor: pointer;
+  border: none;
+}
+.login button:hover {
+  background-color: rgb(72, 161, 72);
+  transition: all 0.3s;
+}
+.login p {
+  text-align: center;
+  margin-top: 10px;
+  font-weight: bold;
+  margin-bottom: -20px;
+}
+.sign,
+.forgot-pass {
+  text-decoration: none;
+  color: blue;
+  font-size: 14px;
+  text-align: center;
+  font-weight: bold;
+  margin-top: 8px;
+}
+.sign:hover {
+  color: red;
+  transition: all 0.3s;
+}
+.alertmsg {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background-color: rgb(254, 215, 215);
+  padding: 6px 7px;
+  border: 1px solid gray;
+  width: 426px;
+}
+.alertmsg img {
+  width: 22px;
+}

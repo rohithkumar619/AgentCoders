@@ -1,0 +1,41 @@
+.Footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 10px;
+  padding-top: 20px;
+  color: white;
+  background-color: rgba(0, 0, 0, 1);
+}
+.Footer > :nth-child(1) {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding-bottom: 7px;
+  border-bottom: 1px solid white;
+}
+.Footer > :nth-child(1) > :nth-child(1) {
+  font-size: 30px;
+  color: red;
+}
+.Footer > :nth-child(2) {
+  display: flex;
+  justify-content: space-around;
+}
+.Footer > :nth-child(2) > div {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.Footer > :nth-child(2) > div > span:hover {
+  color: red;
+  cursor: pointer;
+  text-decoration: underline;
+}
+.Footer > :nth-child(3) {
+  padding-top: 7px;
+  border-top: 1px solid white;
+}

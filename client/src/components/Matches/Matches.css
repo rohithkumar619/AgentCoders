@@ -1,0 +1,140 @@
+.Matches {
+  margin-top: 30px;
+  width: 100%;
+  height: 100%;
+}
+.Matches > :nth-child(1) {
+  position: absolute;
+  width: 100%;
+  height: 1300px;
+  object-fit: cover;
+  left: 0;
+  right: 0;
+  z-index: -2;
+}
+.match {
+  color: white;
+  margin-top: 50px;
+  padding-left: 80px;
+  padding-right: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+.match > div {
+  display: flex;
+  flex-direction: column;
+}
+.match > :nth-child(2) {
+  color: red;
+  text-decoration: underline;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+.match > :nth-child(1) {
+  gap: 10px;
+}
+.match > :nth-child(1) > :nth-child(1) {
+  color: red;
+  font-size: 13px;
+  font-weight: 700;
+}
+.match > :nth-child(1) > :nth-child(2) {
+  font-size: 30px;
+}
+.match > :nth-child(2):hover {
+  color: white;
+  text-decoration: none;
+}
+.matches {
+  display: flex;
+  flex-direction: column;
+}
+.match-card {
+  margin-top: 100px;
+  z-index: 10;
+  width: 100%;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.t1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 50px;
+  width: 300px;
+}
+.t1 > :nth-child(1) {
+  z-index: 3;
+}
+.t1 > :nth-child(1) img {
+  width: 150px;
+}
+.t1 > :nth-child(2) {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+.t1 > :nth-child(2) > :nth-child(1) {
+  font-size: 25px;
+  font-weight: 600;
+}
+.t1 > :nth-child(2) > div {
+  display: flex;
+  background-color: white;
+  color: black;
+  align-items: center;
+  gap: 10px;
+  margin-left: -50px;
+  padding-left: 50px;
+  padding-top: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  border-radius: 2px;
+  z-index: 1;
+}
+.t1 > :nth-child(2) > div span {
+  font-size: 13px;
+  font-weight: 700;
+  color: red;
+  transition: all 0.5s;
+}
+.t1 > :nth-child(2) > div span:hover {
+  color: black;
+}
+.t1 > :nth-child(2) > div > div {
+  display: flex;
+  gap: 15px;
+  width: 125px;
+}
+.t1 > :nth-child(2) > div > div img {
+  width: 30px;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+.t1 > :nth-child(2) > div > div img:hover {
+  background-color: red;
+  border-radius: 10px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.time {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+.time > :nth-child(1) {
+  font-size: 40px;
+  font-weight: 700;
+}
+.time > :nth-child(1) span {
+  color: red;
+  font-size: 50px;
+}
+.time > :nth-child(2) {
+  font-size: 11px;
+  color: red;
+}
